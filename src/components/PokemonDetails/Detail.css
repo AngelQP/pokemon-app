@@ -1,0 +1,107 @@
+.card-pokemon {
+  min-width: 300px;
+  width: 450px;
+  height: auto;
+  margin: 50px auto 0;
+
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.feature--hp {
+  text-align: end;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.container-img {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: start;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
+
+  position: relative;
+}
+
+.info-left {
+  width: 200px;
+}
+
+.info-left--id {
+  font-size: 1.4rem;
+}
+
+.info-left--name {
+  font-size: 1.6rem;
+  
+}
+
+.image-pokemon-svg {
+  width: 220px;
+  height: 250px;
+  /* object-fit: contain; */
+
+  position: absolute;
+  right: 20px;
+  top: -30px;
+}
+
+.image-pokemon-png {
+  width: 220px;
+  height: 250px;
+  object-fit: contain;
+
+  position: absolute;
+  right: 20px;
+  top: -60px;
+}
+
+.image-pokebola-png{
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+
+  position: absolute;
+  right: 25px;
+  top: -60px;
+}
+
+.features-others {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+  font-size: 0.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 15px 15px;
+  gap: 10px;
+  justify-items: center;
+
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  font-size: 0.8rem;
+}
+
+.container-type {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0 10px;
+  font-size: 0.9rem;
+}
+.type {
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #333;
+
+  cursor: pointer;
+}

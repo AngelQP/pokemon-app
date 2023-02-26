@@ -1,0 +1,25 @@
+.container-detail {
+  min-width: 300px;
+  width: 450px;
+  height: 400px;
+  background-color: #333;
+  margin: 50px auto 0;
+
+  animation-duration: 5s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-name: preloadAnimation;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+}
+
+@keyframes preloadAnimation{
+  0%{
+      background-position: -1200px;
+  }
+  100%{
+      background-position: 1200px;
+  }
+}
+

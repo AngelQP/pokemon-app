@@ -1,38 +1,185 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'montserrat', sans-serif;
+}
+
+#root {
+  width: 100vw;
+}
+
 .App {
-  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.borde {
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.normal:hover {
+  background-color: rgba(255,255,255,1);
+  border: 2px solid #333;
+  color: #333;
+}
+.back-normal {
+  background: linear-gradient(180deg, rgba(255, 250, 205, 0.8) 10%, rgba(255,255,255,1) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fighting:hover{
+  background-color: rgba(234,214,164, 0.8);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.back-fighting {
+  background: linear-gradient(180deg, rgba(234,214,164,0.8) 10%, rgba(255,255,255,1) 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flying:hover{
+  background-color: rgba(152,168,240,0.8);
+  color: white;
+}
+.back-flying {
+  background: linear-gradient(180deg, rgba(152,168,240,0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.poison:hover{
+  background-color: rgba(176,88,160,0.8);
+  color: white;
+}
+.back-poison {
+  background: linear-gradient(180deg, rgba(176,88,160,0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.ground:hover{
+  background-color: rgba(160,80,56,0.8) ;
+  color: white;
+}
+.back-ground {
+  background: linear-gradient(180deg, rgba(160,80,56,0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.rock:hover{
+  background-color: rgba(184,160,88, 0.8);
+  color: white;
+}
+.back-rock {
+  background: linear-gradient(180deg, rgba(184,160,88, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.bug:hover{
+  background-color: rgba(168,184,32, 0.8);
+  color: white;
+}
+.back-bug {
+  background: linear-gradient(180deg, rgba(168,184,32, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.ghost:hover{
+  background-color: rgba(96,96,176, 0.8);
+  color: white;
+}
+.back-ghost {
+  background: linear-gradient(180deg, rgba(96,96,176, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.steel:hover{
+  background-color: rgba(168,168,192, 0.8);
+  color: white;
+}
+.back-steel {
+  background: linear-gradient(180deg, rgba(168,168,192, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.fire:hover{
+  background-color: rgba(240,80,48, 0.8);
+  color: white;
+}
+.back-fire {
+  background: linear-gradient(180deg, rgba(240,80,48, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.water:hover{
+  background-color: rgba(56,153,248, 0.8);
+  color: white;
+}
+.back-water {
+  background: linear-gradient(180deg, rgba(56,153,248, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.grass:hover{
+  background-color: rgba(120,200,80, 0.8);
+  color: white;
+}
+.back-grass {
+  background: linear-gradient(180deg, rgba(120,200,80, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.electric:hover{
+  background-color: rgba(248,208,48, 0.8);
+  color: white;
+}
+.back-electric {
+  background: linear-gradient(180deg, rgba(248,208,48, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.psychic:hover{
+  background-color: rgba(248,112,160, 0.8);
+  color: white;
+}
+.back-psychic {
+  background: linear-gradient(180deg, rgba(248,112,160, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.ice:hover{
+  background-color: rgba(88,200,224, 0.8);
+  color: white;
+}
+.back-ice {
+  background: linear-gradient(180deg, rgba(88,200,224, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.dragon:hover{
+  background-color: rgba(0,77,123, 0.8);
+  color: white;
+}
+.back-dragon {
+  background: linear-gradient(180deg, rgba(0,77,123, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.dark:hover{
+  background-color: rgba(122,88,72, 0.8);
+  color: white;
+}
+.back-dark {
+  background: linear-gradient(180deg, rgba(122,88,72, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.fairy:hover{
+  background-color: rgba(231,159,231, 0.8);
+  color: white;
+}
+.back-fairy {
+  background: linear-gradient(180deg, rgba(231,159,231, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.unknown:hover{
+  background-color: rgba(242,242,242, 0.8);
+  color: #333;
+}
+.back-unknow {
+  background: linear-gradient(180deg, rgba(242,242,242, 0.8) 10%, rgba(255,255,255,1) 100%);
+}
+
+.shadow:hover{
+  background-color: rgba(113, 99, 203, 0.8);
+  color: white;
+}
+.back-shadow {
+  background: linear-gradient(180deg, rgba(113, 99, 203, 0.8) 10%, rgba(255,255,255,1) 100%);
 }
